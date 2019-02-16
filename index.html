@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    
+  </head>
+    <body>
+     
+      <a-scene inspector = "url: http://aframe.io/releases/0.3.0/aframe-inspector.min.js">
+      
+     
+      <a-plane rotation="-90 0 0" width="15" height="15" color="grey"></a-plane>
+      
+      <a-box color="red" position="2 1 -4"></a-box>
+      
+      <a-cylinder color="yellow" position="-2 1 4"></a-cylinder>
+      
+      <a-entity camera position= "0 1.6 0"
+                wasd-controls ="acceleration:20";
+                    easing:"30"
+                look-controls></a-entity>
+          
+        
+       </a-scene>
+    </body>
+</html>
